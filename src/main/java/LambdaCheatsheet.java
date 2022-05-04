@@ -71,7 +71,7 @@ public class LambdaCheatsheet {
         System.out.println(toUpper.apply("this is my message in upper case"));
     }
 
-    //custom functional interface
+    // 2. custom functional interface
     @FunctionalInterface
     interface GreetingFunction {
         void sayMessage(String message);
